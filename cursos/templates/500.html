@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block 'head' %}
+    <link rel="stylesheet" href="{% static 'errors/500.css' %}">
+{% endblock %}
+
+
+{% block 'titulo' %}Erro interno do sistema{% endblock %}
+
+{% block 'body' %}
+
+    <div class="main">
+        <h2 class="err0">Erro interno do sistema!</h2>
+    </div>
+
+    <div class="carga">
+        <div class="load_1"></div>
+    </div>
+
+    <div class="container">
+        <h3 class="suporte">Clique 
+            <a class="home" href="/">aqui</a> para voltar.
+        </h3>
+    </div>
+
+    <h4 class="sus">Se o problema persistir fale com um suporte.</h4>
+
+{% endblock %}

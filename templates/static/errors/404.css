@@ -1,0 +1,126 @@
+.carga{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.suporte{
+    text-align: center;
+    color: #30CD9E;
+}
+
+.home{
+    color: #30CD9E;
+    border-bottom: solid 2px #30CD9E;
+}
+
+.home:hover{
+    border: hidden;
+    background-color: turquoise;
+    color: white;
+}
+
+@media (max-width: 418px)
+{
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .err0{
+        text-align: center;
+        padding: 20px 10px 10px 15px;
+        color: #30CD9E;
+    }
+
+    .load_1{
+        width: 50px;
+        height: 50px;
+        border-top: 10px solid #30CD9E;
+        border-bottom: 10px solid #30CD9E;
+        border-right: 10px solid rgb(40, 2, 177);
+        border-left: 10px solid rgb(40, 2, 177);
+        border-radius: 50%;
+        animation: load 1s ease infinite;
+    }
+    @keyframes load{
+        to{
+        transform: rotate(1turn);
+        }
+    }
+}
+
+@media (min-width: 419px) and (max-width: 443px)
+{
+    html{
+        height: 500px;
+    }
+    .main{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .err0{
+        padding-right: 10px;
+        color: #30CD9E;
+    }
+
+    .load_1{
+        width: 45px;
+        height: 45px;
+        border-top: 10px solid #30CD9E;
+        border-bottom: 10px solid #30CD9E;
+        border-right: 10px solid rgb(40, 2, 177);
+        border-left: 10px solid rgb(40, 2, 177);
+        border-radius: 50%;
+        animation: load 1s ease infinite;
+    }
+    @keyframes load{
+        to{
+        transform: rotate(1turn);
+        }
+    }
+}
+
+@media (min-width: 444px)
+{
+    html{
+        height: 500px;
+    }
+    .main{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .err0{
+        padding-right: 10px;
+        color: #30CD9E;
+    }
+
+    .load_1{
+        width: 40px;
+        height: 40px;
+        border-top: 10px solid #30CD9E;
+        border-bottom: 10px solid #30CD9E;
+        border-right: 10px solid rgb(40, 2, 177);
+        border-left: 10px solid rgb(40, 2, 177);
+        border-radius: 50%;
+        animation: load 1s ease infinite;
+    }
+    @keyframes load{
+        to{
+        transform: rotate(1turn);
+        }
+    }
+}

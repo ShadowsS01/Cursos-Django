@@ -1,0 +1,63 @@
+.container{
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carga{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.err0{
+    text-align: center;
+    padding: 20px 10px 10px 15px;
+    color: #30CD9E;
+}
+
+.suporte{
+    text-align: center;
+    color: #30CD9E;
+}
+
+.sus{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #30CD9E;
+}
+
+.home{
+    color: #30CD9E;
+    border-bottom: solid 2px #30CD9E;
+}
+
+.home:hover{
+    border: hidden;
+    background-color: turquoise;
+    color: white;
+}
+
+
+.load_1{
+    width: 50px;
+    height: 50px;
+    border-top: 10px solid #30CD9E;
+    border-bottom: 10px solid #30CD9E;
+    border-right: 10px solid rgb(40, 2, 177);
+    border-left: 10px solid rgb(40, 2, 177);
+    border-radius: 50%;
+    animation: load 1s ease infinite;
+}
+@keyframes load{
+    to{
+    transform: rotate(1turn);
+    }
+}

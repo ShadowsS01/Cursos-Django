@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block 'head' %}
+    <link rel="stylesheet" href="{% static 'errors/404.css' %}">
+{% endblock %}
+
+
+{% block 'titulo' %}Página não econtrada{% endblock %}
+
+{% block 'body' %}
+
+    <div class="main">
+        <h2 class="err0">Página não encontrada!</h2>
+    </div>
+    
+    <div class="carga">
+        <div class="load_1"></div>
+    </div>
+
+    {% if user.is_authenticated %}
+    
+    {% else %}
+        <div class="container">
+            <h3 class="suporte">Clique 
+                <a class="home" href="/">aqui</a> para voltar.
+            </h3>
+        </div>
+    {% endif %}
+
+
+{% endblock %}
