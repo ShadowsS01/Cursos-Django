@@ -72,7 +72,7 @@ $ python manage.py runserver
 
 - Na URL depois do `8000` dígite `auth/cadastro/` ou para acessar a área administrativa `admin/`.
 
-- Na área administrativa coloque o usuário e senha criados na [etapa 8](https://github.com/ShadowsS01/FreelaWay#7-criando-o-super-usu%C3%A1rio).
+- Na área administrativa coloque o usuário e senha criados na [etapa 8](https://github.com/ShadowsS01/Cursos-Django#7-criando-o-super-usu%C3%A1rio).
 
 - **Agora você pode olhar tudo e descobrir como funciona a aplicação. _Lembrando_ que a URL sempre vai ser [aqui](http://127.0.0.1:8000/auth/cadastro).
 Apartir daí crie um usuário e entre na home do site fazendo o login.**
