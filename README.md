@@ -43,8 +43,8 @@ Na pasta do projeto, vá na pasta `plataforma_cursos` e abra o `settings.py`.
 Troque o valor da constante `SECRET_KEY` para uma senha qualquer, e do `DEBUG` para `True`. Dessa forma:
 
 ```text
-SECRET_KEY=Digite_Uma_Senha_Secreta_aqui
-DEBUG=True
+SECRET_KEY = "Digite_Uma_Senha_Secreta_aqui"
+DEBUG = True
 ```
 
 ### 6. Migações no Banco Dados
