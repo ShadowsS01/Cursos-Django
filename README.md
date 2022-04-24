@@ -8,6 +8,7 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
+- [Bootstrap](https://getbootstrap.com/)
 - [Python](https://www.python.org/)
 - [Django](https://www.djangoproject.com/)
 
@@ -66,7 +67,7 @@ python manage.py createsuperuser
 ### 9. Executando aplicação em modo de desenvolvimento
 
 ```bash
-$ python manage.py runserver
+python manage.py runserver
 ```
 - A aplicação inciará localmente - acesse: (<http://127.0.0.1:8000/>)
 
@@ -77,6 +78,9 @@ $ python manage.py runserver
 - **Agora você pode olhar tudo e descobrir como funciona a aplicação. _Lembrando_ que a URL sempre vai ser [aqui](http://127.0.0.1:8000/auth/cadastro).
 Apartir daí crie um usuário e entre na home do site fazendo o login.**
 
+## Créditos
+
+> Projeto criado e desenvolvido no evento online e gratuito PystackWeek 1.0 da [Pythonando](https://github.com/Pythonando)
 
 ## Licença
 
